@@ -38,8 +38,8 @@ header{
 }
 
 header img{
-    height: 25%;
-    width: 25%;
+    height: 20%;
+    width: 20%;
 }
 
 #header--text{
@@ -48,7 +48,7 @@ header img{
 }
 #header--text h1{
     font-family: var(--fonte-varino);
-    font-size: 5.5vw;
+    font-size: 5vw;
     color: var(--azul1);
 }
 #header--text p{
@@ -86,7 +86,7 @@ nav > a:hover{
 }
 
 /* MAIN \/ */   
-
+/* section Apresentacao */
 #apresentacao{
     max-width: 70%;
     margin: 50px auto;
@@ -130,3 +130,6 @@ nav > a:hover{
 #fale-conosco:hover{
     transform: scale(1.1);
 }
+
+/* section Quem somos */
+
