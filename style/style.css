@@ -89,8 +89,44 @@ nav > a:hover{
 
 #apresentacao{
     max-width: 70%;
-    margin: auto;
+    margin: 50px auto;
     color: var(--azul1);
+    background-color: var(--cinza1);
+    color: var(--azul4);
+    border-radius: 20px;
+    box-shadow: 0 0 15px 5px #e7e7e960;
+    padding: 10px;
 
-    border: 2px solid red;
+    display: flex;
+    justify-content: space-around;
+}
+
+#texto-apresentacao{
+    font-size: 2rem;
+    align-self: center;
+}
+
+#apresentacao img{
+    width: 25%;
+    height: 25%;
+}
+
+#fale-conosco{
+    display: block;
+    margin: auto;
+    text-align: center;
+    border: 2px solid var(--azul3);
+    width: 15%;
+    text-decoration: none;
+    background-color: var(--azul3);
+    color: var(--azul4);
+    font-weight: bold;
+    padding: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 5px #4ec3e049;
+    transition: 0.3s;
+}
+
+#fale-conosco:hover{
+    transform: scale(1.1);
 }
