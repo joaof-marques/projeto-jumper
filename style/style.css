@@ -69,8 +69,15 @@ nav{
 nav a{
     text-decoration: none;
     color: var(--azul3);
+    margin: 0 5px;
     border: 2px solid transparent;
     border-radius: 10px;
     padding: 5px;
     background-color: var(--azul4);
+    box-shadow: 3px 3px 3px #11111f54;
+}
+
+nav a:hover{
+    transform: scale(2, 5);
+    text-decoration: underline;
 }
