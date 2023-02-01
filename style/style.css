@@ -74,10 +74,12 @@ nav a{
     border-radius: 10px;
     padding: 5px;
     background-color: var(--azul4);
-    box-shadow: 3px 3px 3px #11111f54;
+    box-shadow: 3px 3px 2px #11111f69;
+    display: inline-block;
 }
 
-nav a:hover{
-    transform: scale(2, 5);
+nav > a:hover{
     text-decoration: underline;
+    transform: translate(-5px, -5px);
+    box-shadow: 6px 6px 2px #11111f69;
 }
