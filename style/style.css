@@ -15,9 +15,6 @@
     --cinza1: #e7e7e9;
     --cinza2: #707079;
     --nova: #18184b;
-    
-
-
 }
 *{
     margin: 0;
@@ -31,100 +28,49 @@ body{
 }
 
 header{
-    background-color: var(--azul4);
-    color: white;
-    padding: 50px;
-}
-header img{
-    max-width: 200px;
-    max-height: 200px;
-    position: absolute;
-}
-header h1{
-    font-family: var(--fonte-varino);
-    text-align: center;
-    font-size: 4em;
-}
-header p{
-    text-align: center;
+    width: 70%;
+    padding-top: 30px;
+    margin: auto;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    margin-bottom: 25px;
 }
 
-/* HEADER  /\/\/\/\/\/\/\ */
-/* ---------------------- */
-/* NAV \/\/\/\/\/\/\/\/\/ */
+header img{
+    height: 30%;
+    width: 30%;
+}
+
+#header--text{
+    flex-grow: 1;
+    text-align: center;
+}
+#header--text h1{
+    font-family: var(--fonte-varino);
+    font-size: 6vw;
+    color: var(--azul1);
+}
+#header--text p{
+    font-family: var(--fonte-roboto);
+    color: var(--azul1);
+}
+
+/* NAV \/ */
 
 nav{
-    background-color: var(--azul4);
+    padding: 10px;
     text-align: center;
-}
-nav hr{
-}
+    background-image: linear-gradient(to right, var(--azul4), var(--azul3), var(--azul4));
+    border-top: 2px solid var(--azul3);
+    border-bottom: 2px solid var(--azul3);
 
+}
 nav a{
     text-decoration: none;
     color: var(--azul3);
-    padding: 10px;
-    border: 2px solid var(--azul3);
-    border-radius: 15px;
-    margin: 0 5px;
-    transition: 0.5s;
-    font-weight: bold;
-    font-size: 0.9em;
-}
-nav a:hover{
-    padding: 17px;
-}
-
-/* NAV  /\/\/\/\/\/\/\/\/\ */
-/* ----------------------- */
-/* MAIN \/\/\/\/\/\/\/\/\/ */
-
-main{
-    background-image: linear-gradient(to top, var(--nova), var(--azul4));
-    margin:  auto;
-}
-
-#apresentacao{
-    padding: 80px;
-    color: var(--azul1);
-    height: 200px;
-    max-width: 800px;
-    min-width: 400px;
-    margin: auto;
-}
-
-#texto-apresentacao{
-    display: inline-block;
-    border-radius: 15px;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.356);
-}
-
-article#texto-apresentacao > p{
-    padding: 15px;
-    margin-bottom: 30px;
-    font-size: 2.5em;
-    float: left;
-}
-
-img#img-apresentacao{
-    height: 200px;
-    width: 200px;
-    float: right;
-}
-
-section#apresentacao a{
-    text-decoration: none;
-    color: var(--azul4);
-    font-weight: bold;
-    padding: 15px;
-    border-radius: 15px;
-    background-color: var(--azul3);
-    box-shadow: 0px 0px 15px #4ec3e067;
-}
-
-/* MAIN  /\/\/\/\/\/\/\/\/\  */
-/* -----------------------   */
-/* FOOTER \/\/\/\/\/\/\/\/\/ */
-
-footer{
+    border: 2px solid transparent;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: var(--azul4);
 }
