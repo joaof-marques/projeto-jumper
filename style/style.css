@@ -38,8 +38,8 @@ header{
 }
 
 header img{
-    height: 30%;
-    width: 30%;
+    height: 25%;
+    width: 25%;
 }
 
 #header--text{
@@ -48,7 +48,7 @@ header img{
 }
 #header--text h1{
     font-family: var(--fonte-varino);
-    font-size: 6vw;
+    font-size: 5.5vw;
     color: var(--azul1);
 }
 #header--text p{
@@ -59,7 +59,7 @@ header img{
 /* NAV \/ */
 
 nav{
-    padding: 10px;
+    padding: 5px;
     text-align: center;
     background-image: linear-gradient(to right, var(--azul4), var(--azul3), var(--azul4));
     border-top: 2px solid var(--azul3);
@@ -72,14 +72,25 @@ nav a{
     margin: 0 5px;
     border: 2px solid transparent;
     border-radius: 10px;
-    padding: 5px;
+    padding: 10px;
     background-color: var(--azul4);
     box-shadow: 3px 3px 2px #11111f69;
     display: inline-block;
+    box-sizing: border-box;
 }
 
 nav > a:hover{
     text-decoration: underline;
     transform: translate(-5px, -5px);
     box-shadow: 6px 6px 2px #11111f69;
+}
+
+/* MAIN \/ */   
+
+#apresentacao{
+    max-width: 70%;
+    margin: auto;
+    color: var(--azul1);
+
+    border: 2px solid red;
 }
