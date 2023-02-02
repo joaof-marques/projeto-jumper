@@ -192,8 +192,6 @@ section#quem-somos-cards div p{
 
     display: flex;
     flex-flow: column nowrap;
-
-    border: 2px solid red;
 }
 
 #servicos-container div{
