@@ -100,6 +100,10 @@ nav > a:hover{
 /* MAIN \/ */   
 /* section Apresentacao */
 
+#welcome-screen{
+    margin-bottom: 180px;
+}
+
 #apresentacao{
     max-width: 70%;
     margin: 50px auto;
@@ -126,7 +130,7 @@ nav > a:hover{
 
 #fale-conosco{
     display: block;
-    margin: 0 auto 80px auto;
+    margin: auto;
     text-align: center;
     border: 2px solid var(--azul3);
     width: 15%;
@@ -149,7 +153,7 @@ nav > a:hover{
 #quem-somos{    
     text-align: center;
     color: var(--azul4);
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 }
 
 #quem-somos h2 span{
@@ -189,6 +193,10 @@ section#quem-somos-cards div p{
 
 /* Nossos serviços \/  */
 
+#servicos{
+    padding-bottom: 200px;
+}
+
 #servicos h2{
     margin-bottom: 100px;
 }
@@ -199,7 +207,7 @@ section#quem-somos-cards div p{
 
     display: flex;
     flex-flow: column nowrap;
-    row-gap: 40px;
+    row-gap: 100px;
 }
 
 #servicos-container div{
@@ -208,10 +216,8 @@ section#quem-somos-cards div p{
     justify-content: space-around;
     text-align: center;
 
+
     background-color: var(--azul4);
-    border-radius: 15px;
-/*     border: 4px solid var(--cinza1);
-    box-shadow: 0 0 10px 5px var(--cinza1); */
 
     color: var(--azul1);
 
@@ -242,4 +248,51 @@ section#servicos-container > div > aside > p{
 
 #servicos-container div img{
     width: 20vw;
+}
+
+/* Nossos clientes \/   */
+
+#nossos-clientes{
+    background-color: var(--cinza1);
+    text-align: center;
+    padding: 60px;
+    
+    border: 2px solid red;
+}
+#nossos-clientes h2{
+    font-size: 2em;
+    margin-bottom: 40px;
+}
+#opiniao-cliente{
+    padding: 15px 15px 15px;
+    display: block;
+    margin: auto;
+    border-radius: 15px;
+    color: var(--azul1);
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: right;
+    position: relative;
+    height: 30vh;
+    width: 50vw;
+    background-color: var(--azul4);
+}
+
+#texto-avaliacao{
+    width: 32vw;
+
+    display: flex;
+    flex-flow: column nowrap;
+    row-gap: 35px;
+    text-align: left;
+}
+
+div#opiniao-cliente img{
+    position: absolute;
+    top: -5%;
+    left: 4%;
+    height: 37vh;
+    border-radius: 10px;
+    border: 2px solid var(--azul3);
 }
