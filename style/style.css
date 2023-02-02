@@ -31,6 +31,27 @@
     text-align: center;
 }
 
+#fale-conosco{
+    display: block;
+    margin: auto;
+    text-align: center;
+    border: 2px solid var(--azul3);
+    width: 15%;
+    text-decoration: none;
+    background-color: var(--azul3);
+    color: var(--azul4);
+    font-weight: bold;
+    padding: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 5px #4ec3e049;
+    transition: 0.3s;
+}
+
+#fale-conosco:hover{
+    transform: scale(1.1);
+}
+
+
 /* Body */
 
 body{
@@ -128,25 +149,6 @@ nav > a:hover{
     height: 25%;
 }
 
-#fale-conosco{
-    display: block;
-    margin: auto;
-    text-align: center;
-    border: 2px solid var(--azul3);
-    width: 15%;
-    text-decoration: none;
-    background-color: var(--azul3);
-    color: var(--azul4);
-    font-weight: bold;
-    padding: 10px 0;
-    border-radius: 10px;
-    box-shadow: 0 0 10px 5px #4ec3e049;
-    transition: 0.3s;
-}
-
-#fale-conosco:hover{
-    transform: scale(1.1);
-}
 
 /* section Quem somos */
 
@@ -256,8 +258,6 @@ section#servicos-container > div > aside > p{
     background-color: var(--cinza1);
     text-align: center;
     padding: 60px;
-    
-    border: 2px solid red;
 }
 #nossos-clientes h2{
     font-size: 2em;
@@ -266,7 +266,7 @@ section#servicos-container > div > aside > p{
 #opiniao-cliente{
     padding: 15px 15px 15px;
     display: block;
-    margin: auto;
+    margin: 70px auto 30px auto;
     border-radius: 15px;
     color: var(--azul1);
 
@@ -286,6 +286,7 @@ section#servicos-container > div > aside > p{
     flex-flow: column nowrap;
     row-gap: 35px;
     text-align: left;
+    justify-content: center;
 }
 
 div#opiniao-cliente img{
@@ -294,5 +295,28 @@ div#opiniao-cliente img{
     left: 4%;
     height: 37vh;
     border-radius: 10px;
-    border: 2px solid var(--azul3);
+    border: 5px solid var(--azul3);
 }
+
+#nome-cliente{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+/* Case de sucesso */
+
+#case-jumper{
+    padding: 50px;
+}
+
+#case-jumper span{
+    color: var(--azul3);
+}
+
+#case-jumper a{
+    margin: 50px auto;
+}
+
+/* Footer  \/ */
+
+
