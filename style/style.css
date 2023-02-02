@@ -33,15 +33,10 @@
 
 /* Body */
 
-body{/* 
-    background-color: var(--azul4); */
+body{
     background-color: var(--azul4);
 }
 
-main{
-    
-    background-image: linear-gradient(to top, var(--cinza1), var(--azul4)) ;
-}
 
 header{
     width: 70%;
@@ -104,6 +99,7 @@ nav > a:hover{
 
 /* MAIN \/ */   
 /* section Apresentacao */
+
 #apresentacao{
     max-width: 70%;
     margin: 50px auto;
