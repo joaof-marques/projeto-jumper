@@ -147,6 +147,7 @@ nav > a:hover{
 #quem-somos{    
     text-align: center;
     color: var(--azul4);
+    margin-bottom: 100px;
 }
 
 #quem-somos h2 span{
@@ -186,26 +187,54 @@ section#quem-somos-cards div p{
 
 /* Nossos serviços \/  */
 
+#servicos h2{
+    margin-bottom: 100px;
+}
+
 #servicos-container{
     width: 70%;
     margin: auto;
 
     display: flex;
     flex-flow: column nowrap;
+    row-gap: 25px;
 }
 
 #servicos-container div{
     display: flex;
     align-items: center;
+    justify-content: space-around;
     text-align: center;
 
-    color: var(--azul1);
+    background-color: var(--cinza1);/* 
+    margin-bottom: 15px; */
+    border-radius: 15px;
+
+    color: var(--azul4);
 
     padding: 25px;
 }
 
+section#servicos-container > div > aside{
+    display: flex;
+    flex-flow: column nowrap;
+    row-gap: 50px;    
+}
+
+section#servicos-container > div > aside > h3{
+    font-size: 2em;
+}
+
+section#servicos-container > div > aside > p{
+    font-size: 1.2em;
+}
+
 .inverte-conteudo-flex{
     flex-direction: row-reverse;
+}
+
+#servicos-container div p{
+    width: 400px;
 }
 
 #servicos-container div img{
